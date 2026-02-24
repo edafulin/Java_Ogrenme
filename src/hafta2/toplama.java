@@ -6,7 +6,7 @@ bunu yazmamız belirtmemiz gerekiyor. */
 
 public class toplama {
     public static void main(String[] args) {
-        Scanner giris =new Scanner(System.in) ;
+        Scanner giris = new Scanner(System.in) ;
 
         System.out.print("1.sayıyı giriniz: ");
         int sayi1 = giris.nextInt();

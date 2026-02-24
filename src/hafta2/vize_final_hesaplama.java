@@ -3,7 +3,7 @@ package hafta2;
 import java.util.Scanner;
 
 public class vize_final_hesaplama {
-    public static void main(String[] args) {
+    public static void main (String [] args) {
 
         Scanner giris = new Scanner(System.in);
 
