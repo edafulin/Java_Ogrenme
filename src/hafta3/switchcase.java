@@ -1,0 +1,41 @@
+package hafta3;
+import java.util.Scanner;
+
+public class switchcase {
+    public static void main(String[] args) {
+        Scanner giris = new Scanner(System.in);
+
+        double sonuc;
+
+        System.out.print("birinci sayıyı giriniz:");
+        double sayi1 = giris.nextDouble();
+
+        System.out.print("ikinci sayıyı giriniz:");
+        double sayi2 = giris.nextDouble();
+
+        System.out.print("yapmak istediğiniz işlemi giriniz:");
+        char islem = giris.next().charAt(0);
+
+        switch (islem){
+		case '+':
+			sonuc = sayi1 + sayi2 ;
+			System.out.println(sonuc);
+			break;
+		case '-' :
+			sonuc= sayi1 - sayi2 ;
+			System.out.println(sonuc);
+			break;
+		case '*':
+			sonuc = sayi1 * sayi2 ;
+			System.out.println(sonuc);
+			break;
+		case '/':
+			sonuc = sayi1 / sayi2 ; 
+			System.out.println(sonuc);
+			break;
+	}
+
+    giris.close();
+
+    }
+}
