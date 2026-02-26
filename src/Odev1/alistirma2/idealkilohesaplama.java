@@ -1,4 +1,4 @@
-package Odev1;
+package Odev1.alistirma2;
 import java.util.Scanner;
 
 public class idealkilohesaplama {
