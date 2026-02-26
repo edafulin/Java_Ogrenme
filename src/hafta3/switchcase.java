@@ -1,5 +1,8 @@
 package hafta3;
 import java.util.Scanner;
+/*Eğer switch case kalıbında koşullar için char veri tipini
+kullanıyorsak koşulları tek tırnak içine '' almalıyız. Burda 
+hesap makinesi yapılmıştır. */
 
 public class switchcase {
     public static void main(String[] args) {

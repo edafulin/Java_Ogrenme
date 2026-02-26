@@ -1,16 +1,15 @@
 package hafta3;
 import java.util.Scanner;
-/*Eğer if else kalıbında koşullar için string veri tipini 
-kullanıyorsak koşulları belirtirken değişken.equals(koşul) kalıbını
-kulllanırız.
-
-Ancak koşulun veri tipi char olsaydı koşulu klasik yöntemlerle 
-belirtirdik. Yani değişken == koşul kalıbını kullanırız.
-
-
-Burda hesap makinesi yapılmıştır. */
-public class ifelsehesaplama {
+/*mainin içine yazılan değişkenler local değişkendir eğer ki
+biz başlangıç değeri atamazsak hiç değer atamama durumu olma 
+ihtimali olduğu zamanlarda java bunun derlemez örneğin aşağıda
+sonuc değişkeni if kalıplarından hiçbiri gerçekleşmezse yani 
+boolean değeri hep false çıkarsa sonuc değişkenine değer atanmaz
+böylece java çalışmaz o yüzden her zaman en başta local değişkenlere 
+değer atanmalıdır. */
+public class localdegisken {
     public static void main(String[] args) {
+        
         Scanner giris = new Scanner(System.in);
 
         System.out.println("1.sayıyı giriniz.");
@@ -20,35 +19,29 @@ public class ifelsehesaplama {
         double sayi2 = giris.nextDouble();
 
         System.out.println("yapmak istediğiniz işlemi giriniz:");
-        String islem = giris.next();
+        char islem = giris.next().charAt(0);
 
         double sonuc;
 
-        if(islem.equals("+")){
+        if(islem == '+'){
             sonuc = sayi1+sayi2;
             System.out.println(sonuc) ;
         }
 
-        else if(islem.equals("-")){
+        else if(islem == '-'){
                 sonuc = sayi1-sayi2;
             System.out.println(sonuc) ;
             }
-        else if(islem.equals("*")){
+        else if(islem == '*'){
                 sonuc = sayi1*sayi2;
             System.out.println(sonuc) ;
             }
-         else if(islem.equals("/")){
+        else if(islem == '/'){
                 sonuc = sayi1/sayi2;
             System.out.println(sonuc) ;
             }
         giris.close();
 
-
-
-        
-
-
-
     }
-    
+
 }

@@ -1,6 +1,9 @@
 package hafta3;
 
 import java.util.Scanner;
+/*Eğer switch case kalıbında koşullar için string kullanıyorsak 
+koşulları çift tırnak içine "" almalıyız. Burda hesap makinesi 
+yapılmıştır. */
 
 public class switchstringile {
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
 package hafta3;
 import java.util.Scanner;
-
+/*burada mod almak yani kalanı bulmak için C deki gibi % 2 yazıyoruz. */
 public class mod {
     public static void main(String[] args) {
 
