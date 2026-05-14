@@ -1,3 +1,16 @@
+//txt Dosyada silme işlemi1. Orijinal dosyayı okumak için aç.
+//2. Yeni (geçici) bir dosyayı yazmak için aç.
+//3. İlk satıra konumlan
+//4. Satırı oku (siradakiSatir)
+//5. Eğer siradakiSatir silmek istediğin satıra
+//eşit ise:
+//bu satırı dosyaya yazma.
+//değil ise:
+//siradakiSatir olduğu gibi yeni dosyaya yaz.6. Bir sonraki satıra geç.
+//7. Eğer siradakiSatir son satır değil ise 4.adıma git8. Her iki dosyayı da kapat.
+//9. Orijinal dosyayı sil.
+//10. Yeni dosyayı, orijinal dosyanın adıyla yeniden adlandır.
+
 package hafta11;
 
 import java.io.BufferedReader;
